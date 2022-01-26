@@ -1,11 +1,10 @@
 branch-defaults:
   main:
-    environment: hello-env
-    group_suffix: null
+    environment: flask-simple-eb-env
 global:
-  application_name: hello
+  application_name: flask-simple-eb
   branch: null
-  default_ec2_keyname: aws-eb
+  default_ec2_keyname: hellowebservice
   default_platform: Python 3.7
   default_region: us-east-1
   include_git_submodules: true
